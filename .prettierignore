@@ -10,4 +10,5 @@ public
 # coverage
 coverage
 
+package.json
 package-lock.json
