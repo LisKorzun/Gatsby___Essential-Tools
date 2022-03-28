@@ -26,9 +26,9 @@ Also, Gatsby supports the use of ESLint and Prettier to enforce code styling sta
 
 Before you start, all you need is
 
-- Have a basic understanding of the key technologies needed to create a Gatsby site.
+- Have a [basic understanding](https://www.gatsbyjs.com/docs/tutorial/part-0/#background-knowledge) of the key technologies needed to create a Gatsby site.
 - Install all the required software tools: Node.js (v14.15 or newer), Git, preferable IDE.
-- Create all the necessary accounts for deploying your site online: GitHab and Gatsby cloud accounts.
+- Create all the necessary accounts for deploying your site online: [GitHab](https://github.com/) and [Gatsby cloud](https://www.gatsbyjs.com/dashboard/signup/) accounts.
 
 ## 🚀 Get Up and Running
 
@@ -325,3 +325,21 @@ Another way to do this is to use the Community plugin [gatsby-plugin-eslint](htt
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+---
+
+Learn more about
+
+- [Development Environment](https://www.gatsbyjs.com/docs/tutorial/part-0/)
+- [How Gatsby Works](https://www.gatsbyjs.com/docs/tutorial/)
+
+
+- [Javascript tooling](https://www.gatsbyjs.com/docs/how-to/local-development/javascript-tooling/)
+- [TypeScript and Gatsby](https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/)
+- [Using ESLint](https://www.gatsbyjs.com/docs/how-to/custom-configuration/eslint/)
+- [Gatsby Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/)
+
+
+- [Gatsby Docs](https://www.gatsbyjs.com/docs/)
+- [Gatsby Starters](https://www.gatsbyjs.com/starters/)
+- [Gatsby Plugins](https://www.gatsbyjs.com/plugins)
