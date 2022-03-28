@@ -3,20 +3,42 @@
   "version": "1.0.0",
   "private": true,
   "description": "Gatsby Essential tools",
-  "author": "akorzun",
+  "author": "Alesia Korzun <liskorzun@gmail.com>",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "typescript",
+    "eslint",
+    "prettier"
   ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "eslint . --ext ts --ext tsx --ext js --ext jsx",
+    "lint:fix": "eslint . --ext ts --ext tsx --ext js --ext jsx --fix",
+    "lint:check": "eslint . --ext ts --ext tsx --ext js --ext jsx --quiet"
   },
   "dependencies": {
     "gatsby": "^4.10.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.42",
+    "@types/react-dom": "^17.0.14",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.0",
+    "typescript": "^4.4.4"
+  },
+  "engines": {
+    "node": ">=14.15.0"
   }
 }

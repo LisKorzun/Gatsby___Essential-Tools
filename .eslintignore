@@ -1,0 +1,11 @@
+*.min.js
+node_modules/
+
+# cache-dirs
+.cache
+
+# built sites
+public
+
+# coverage
+coverage
