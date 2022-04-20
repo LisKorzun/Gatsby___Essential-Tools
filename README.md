@@ -362,8 +362,9 @@ Let's use packages husky and lint-staged.
    # cache-dirs
    .cache
 
-   # production
+   # built sites
    public
+   dist
 
    # testing
    coverage
