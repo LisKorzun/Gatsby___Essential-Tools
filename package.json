@@ -10,17 +10,28 @@
     "eslint",
     "prettier"
   ],
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "npm run check"
+    ],
+    "{*.{json,md}}": [
+      "prettier --write"
+    ]
+  },
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "lint": "eslint . --ext ts --ext tsx --ext js --ext jsx",
     "lint:fix": "eslint . --ext ts --ext tsx --ext js --ext jsx --fix",
-    "lint:check": "eslint . --ext ts --ext tsx --ext js --ext jsx --quiet"
+    "lint:quiet": "eslint . --ext ts --ext tsx --ext js --ext jsx --quiet",
+    "check": "npm run typecheck & npm run lint:fix"
   },
   "dependencies": {
     "gatsby": "^4.10.3",
@@ -35,6 +46,8 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.8",
     "prettier": "^2.6.0",
     "typescript": "^4.4.4"
   },

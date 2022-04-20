@@ -2,6 +2,10 @@ import React, { FC } from 'react'
 import { PageProps } from 'gatsby'
 
 const IndexPage: FC<PageProps> = () => {
+  const L
+
+  let D
+
   return (
     <main>
       <title>Home Page</title>

@@ -328,6 +328,13 @@ Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cl
 
 ---
 
+                         
+
+
+
+
+<   
+
 Learn more about
 
 - [Development Environment](https://www.gatsbyjs.com/docs/tutorial/part-0/)
