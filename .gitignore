@@ -4,9 +4,9 @@ node_modules/
 # cache-dirs
 .cache
 
-# production
+# built sites
 public
-build
+dist
 
 # testing
 coverage
